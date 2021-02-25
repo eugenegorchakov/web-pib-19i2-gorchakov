@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Список книг</title>
+	<style type="text/css">
+		body {
+			background: url(image/1.jpg);
+    		background-size: 100%;
+    	}
+		a {
+			text-decoration: none;
+			border-radius: 10px;
+   			color: #36454A;
+   			background: -webkit-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   			background: -o-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   			background: linear-gradient(to top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   			box-shadow: 3px 3px 4px skyblue;
+   		}
+   		a:hover {
+   			background: -webkit-linear-gradient(bottom, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   			background: -o-linear-gradient(bottom, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   			background: linear-gradient(to bottom, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   		}
+   		TABLE {
+			width: 500px;
+			border-collapse: collapse;
+		}
+		TD, TH {
+			padding: 8px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 style="text-align: center; font-family: sans-serif; margin: 50px; color: #333;">
+			Список книг
+		</h1>
+		<nav>
+			<ul style="display: flex; justify-content: space-around">
+				<a href="./index.html"><big>Вернуться на главную страницу</big></a>
+				<a href="./iam.html"><big>Посмотреть информацию об авторе</big></a>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<big>
+		<br><br>
+		<p align="center"><big>Перечень литературы.</big></p>
+		<center>
+			<table>
+				<tr style="background: #D3D3D3">
+					<th>Название книги</th>
+					<th>Автор книги</th>
+					<th>Количество страниц</th>
+					<th>Описание</th>
+				</tr>
+				<tr>
+					<th>1.Будет кровь</th>
+					<th>Стивен Кинг</th>
+					<th>519</th>
+					<th><a href="./onebook.html">Ознакомиться</a></th>
+				</tr>
+				<tr>
+					<th>2.Три товарища</th>
+					<th>Эрих Мария Ремарк</th>
+					<th>530</th>
+					<th><a href="./twobook.html">Ознакомиться</a></th>
+				</tr>
+				<tr>
+					<th>3.Вино из одуванчиков</th>
+					<th>Рэй Брэдбери</th>
+					<th>345</th>
+					<th><a href="./threebook.html">Ознакомиться</a></th>
+				</tr>
+			</table>
+		</center>
+		</big>
+	</main>
+	<footer style="text-align: right; margin-top: 50px;">
+		Gorchakov&nbsp;&copy;&nbsp;2021
+	</footer>
+</body>
+</html>
