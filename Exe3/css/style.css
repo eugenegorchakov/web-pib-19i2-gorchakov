@@ -1,0 +1,88 @@
+
+body {
+    background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+    background-position: 100%;
+    background-clip: padding-box;
+}
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+
+h2.my-title {
+	border-top: 5px solid #E0DBDE; border-bottom: 5px solid #E0DBDE; font-size: 50px; text-align: center;
+	margin-top: 40px; margin-bottom: 5px; text-transform: uppercase; font-family:'Russo One',sans-serif;
+	font-weight: 900; letter-spacing: 8px
+}
+@-webkit-keyframes move-background {
+	0%{background-position:-300px 0}
+	100%{background-position:300px -300px}
+}
+@-moz-keyframes move-background {
+	0%{background-position:-300px 0}
+	100%{background-position:300px -300px}
+}
+@keyframes move-background {
+    0%{background-position:-300px 0
+    }
+100% {
+	background-position:300px -300px
+}
+}
+.my-title2 {
+	-webkit-animation-play-state: running;-moz-animation-play-state: running;animation-play-state: running;color: transparent;
+	background: url(https://obninsksite.ru/assets/theme/images/blog/square.svg) no-repeat #ECE7EA;
+	background-size: cover;-webkit-text-fill-color: transparent;-moz-text-fill-color: transparent;-webkit-background-clip: text;-moz-background-clip: text;
+	background-clip:text;-webkit-animation:move-background 20s infinite linear alternate;-moz-animation:move-background 20s infinite linear alternate;
+	animation: move-background 20s infinite linear alternate
+}
+.button {
+	text-decoration: none;
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 10px 20px;
+	border-radius: 30px;
+	background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+	box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+	transition: .5s;
+}
+.button:hover {
+	box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+nav {
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-style: oblique;
+	font-size: 25px
+}
+img {
+	text-align: center;
+	width: 400px;
+	height: 300px;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    margin-left: 750px
+}
+footer {
+	text-align: right; 
+	margin-top: 50px;
+}
+table {
+	margin-left: 700px;
+	width: 500px;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 14px;
+	border: 2px solid black;
+}
+tr {
+	background: #D3D3D3
+}
+
